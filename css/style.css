@@ -1,0 +1,63 @@
+.btn-twitter{
+  background: : #00acee;
+  border-color:#009ad5;
+}
+
+.btn-facebook{
+  background: : #4868ac;
+  border-color:#314776;
+}
+
+.btn-pinterest{
+  background: : #b62f26;
+  border-color:#b62f26;
+}
+
+.jumbotron{
+  background-image: url("../images/fruit-and-veg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+  color: white;
+}
+
+body {
+  background: url('../images/africa.jpg') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  border: #ffffff 20px solid;
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica'
+}
+
+div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+h1:hover {
+  cursor: pointer;
+}
+
+p {
+  position: fixed;
+  bottom: 10px;
+  color: #ffffff;
+}
